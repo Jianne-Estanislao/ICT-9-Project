@@ -1,0 +1,188 @@
+/* General Reset */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: FFF2E0;
+    color: black;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #ff2da4c0;
+    color: pink;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar .logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: #ffa2db;
+}
+
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.highlight {
+    color: #64003c;
+    font-weight: bold;
+}
+
+
+/* About Section */
+#about, #works, #contact {
+    padding: 5px ;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(255, 192, 230);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+/* Works */
+.works-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.work-item {
+    flex: 1 1 45%;
+}
+
+
+.work-item img {
+    width: 105%;
+    border-radius: 10px;
+}
+
+
+/* Contact Form */
+.form-container {
+      background-color: whitesmoke;
+      padding: 30px;
+      border-radius: 12px;
+      width: 600px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+textarea {
+      resize: vertical;
+    }
+
+
+.checkbox-group,
+.radio-group {
+    display: inline-block;
+    align-items: center;
+    gap: 6px;
+    font-weight: lighter;
+}
+
+
+.radio-group input[type="radio"] {
+    margin: 0;
+}
+   
+
+
+button {
+      margin-top: 20px;
+      background-color: #ff80ca;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+
+button:hover {
+      background-color: #be006f;
+    }
+
+
+/* Footer */
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+h2{
+    background: linear-gradient(90deg, #dba2d1 10%, #a8284e 100%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 35px;
+    border-radius: 10px;
+}
+form, p, ul, ol{
+    font-family: Times New Roman;
+    font-size: 20px;
+}
+label{
+    font-weight: bold;
+}
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+}
+h1{
+    font-size: 50px;
+}
+
+
